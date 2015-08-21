@@ -10,6 +10,7 @@ Finding out the hard way what it means to implement tensor operations on ndarray
 At the moment just a thin shell of a tensor operator framework. Once implemented, will use the definition of an operator to create a plan. Then, based on the type signature of actual arguments, will apply transformations (loop reordering, etc.) to assemble and cache that plan into an optimized function. Also includes the ability to bypass the cache for fast repeated operation on similar inputs.
 
 There are three primary motivations for this:
+
 1. Work my way through cwise and better understand what it means to implement this sort of thing
 2. cwise doesn't quite implement tensor operators
 3. benchmark it and understand where the bottlenecks are in streamlining operations, particularly for small inputs.
