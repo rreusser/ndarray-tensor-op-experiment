@@ -21,5 +21,7 @@
     "mocha": "^2.2.5",
     "ndarray": "^1.0.18"
   },
-  "dependencies": {}
+  "dependencies": {
+    "cwise-parser": "^1.0.2"
+  }
 }
