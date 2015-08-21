@@ -33,11 +33,11 @@ var b = ndarray([4,5,6],[3])
 // Assemble, cache, and execute the operation:
 operator( a, b )
 
-// Optimize this operator for the given inputs:
-var raw = operator.assemble( a, b )
+// Optimize and assemble this operator for the given inputs:
+var rawOperator = operator.assemble( a, b )
 
-// Execute the operation, bypassing cache and assembly:
-raw( a, b )
+// Execute the operation, cutting out as much overhead as possible:
+rawOperator( a, b )
 ```
 
 
