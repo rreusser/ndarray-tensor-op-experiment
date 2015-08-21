@@ -1,8 +1,8 @@
-# [WIP] ndarray-tensor-op
+# [WIP] ndarray-tensor-op-experiment
 
 [![Build Status](https://travis-ci.org/rreusser/ndarray-tensor-op-experiment.svg)](https://travis-ci.org/rreusser/ndarray-tensor-op-experiment)
 
-Perform tensor operations on ndarrays
+Finding out the hard way what it means to implement tensor operations on ndarrays
 
 
 ## Introduction
