@@ -1,6 +1,6 @@
-# [WIP] ndarray-tensor-ops
+# [WIP] ndarray-tensor-op
 
-[![Build Status](https://travis-ci.org/scijs/ndarray-tensor-ops.svg)](https://travis-ci.org/scijs/ndarray-tensor-ops) [![npm version](https://badge.fury.io/js/ndarray-tensor-ops.svg)](http://badge.fury.io/js/ndarray-tensor-ops) [![Dependency Status](https://david-dm.org/scijs/ndarray-tensor-ops.svg)](https://david-dm.org/scijs/ndarray-tensor-ops)
+[![Build Status](https://travis-ci.org/rreusser/ndarray-tensor-op-experiment.svg)](https://travis-ci.org/rreusser/ndarray-tensor-op-experiment)
 
 Perform tensor operations on ndarrays
 
@@ -20,7 +20,7 @@ There are three primary motivations for this:
 Just a sketch of what I'm aiming for. Usage is basically identical to cwise, except you can bypass the assembly/type signature step.
 
 ```javascript
-var tensorOp = require('ndarray-tensor-ops')
+var tensorOp = require('ndarray-tensor-op')
 
 var operator = tensorOp({
   <config tbd>
@@ -43,7 +43,7 @@ raw( a, b )
 ## Install
 
 ```sh
-$ npm install ndarray-tensor-ops
+$ npm install ndarray-tensor-op
 ```
 
 
